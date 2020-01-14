@@ -1,4 +1,4 @@
-##preventExtensions, seal and freeze
+## preventExtensions, seal and freeze  
 ECMAScript version 5 is the latest, official, approved standard version of the ECMAScript programming language. If you've never heard of ECMAScript, well, don't feel too bad as it is better known, used, loved (and hated) by its other name - JavaScript. As far as names go JavaScript is probably not a whole lot better than ECMAScript either - as Douglas Crockford so eloquently (half joking actually) put it in a recent session that he did during Microsoft's MIX event:
 
 "Maybe it's time to change the name of it. Because if it isn't Java and if it isn't script then the name is completely wrong!"
