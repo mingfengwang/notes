@@ -1,4 +1,4 @@
-##函数声明  
+## 函数声明  
 ```
 function a() {}   
 ```
@@ -7,7 +7,7 @@ function a() {}
 必须具名   
 静态语义
 
-##函数表达式
+## 函数表达式
 ```
 (function(){})
 (function b(){})
@@ -17,7 +17,7 @@ function a() {}
 可以具名也可以不具名，但是都无法找到名字，因为它是闭包，无法作为export的对象   
 动态语义
 
-##函数定义
+## 函数定义
 ```
 var/const/let a = function(){}
 var/const/let a = function b (){}
@@ -28,7 +28,7 @@ var/const/let a = function b (){}
 如果右侧为匿名，则外层名字为a，a.name因为function的名字缺省所以也为a  
 如果右侧为具名，则外层名字为a，a.name为b
 
-##export & import
+## export & import
 export 只能导出有名字的，export会形成“名字表”，它的 
 ```
 export default <expression> 
