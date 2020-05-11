@@ -22,11 +22,9 @@ Number[1] = true 就改变了1 in 1..constructor的结果，因为Number.prototy
 1. 判断对象是否实现 [Symbol.toPrimitive] 属性，如果实现调用它，并判断返回值是否为值类型，如果不是，执行下一步。  
 2. 如果转换类型为 string，依次尝试调用 toString() 和 valueOf() 方法，如果 toString() 存在，并正确返回值类型就不会执行 valueOf()。  
 3. 如果转换类型为 number/default，依次尝试调用 valueOf() 和 toString()，如果 valueOf() 存在，并正确返回值类型就不会执行 toString()。   
-```[] + '' 
-```  就等价于 
-```
-	'' + ''
-```结果为```''```	  
+```[] + ''```    就等价于 
+```'' + ''```  结果为  
+```''```	  
 
 ```+ []```
 就等价于 ```+ ''```
